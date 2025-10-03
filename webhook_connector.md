@@ -11,14 +11,14 @@ configure your LNS in different ways, depending on its underlying technology.
 If you use a TTN or TTI (The Things Industry) LNS, you'll have to configure
 a new webhook the following way:
 
-* Webhook ID: Fill in with the ID you want, `abeeway-webhook` for this example ;
-* Webhook format: `JSON` ;
-* Base URL: `https://configurationmanager.abeeway.io/api/v1/lns/tti` ;
-* Downlink API Key: copy the API key you'll generate to allow Abeeway Server to
+* `Webhook ID`: Fill in with the ID you want, `abeeway-webhook` for this example ;
+* `Webhook format`: `JSON` ;
+* `Base URL`: `https://configurationmanager.abeeway.io/api/v1/lns/tti` ;
+* `Downlink API Key`: copy the API key you'll generate to allow Abeeway Server to
   push downlink (see below)
-* Additional headers:
-  * X-Apikey: `{guid}`.
-* Enabled Event Types: don't forget to enable `Uplink message`.
+* `Additional headers`:
+  * `X-Apikey`: `{guid}`.
+* `Enabled Event Types`: don't forget to enable `Uplink message`.
 
 You'll need to generate an API Key to allow the server to push downlink. For
 that, you'll have to select `API Keys` menu, then click `+ Add API Key`, set

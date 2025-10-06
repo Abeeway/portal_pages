@@ -1,1 +1,0 @@
-Only the checked FW versions will be visible in the "Configurations & Parameters" menu

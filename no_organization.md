@@ -1,7 +1,6 @@
 __Warning:__
 
-Your account is not linked to any organization. If your organization has already
-setup an organization, please contact the administrator to be registered on this
-organization.
+Your account is not linked to any organization. If an organization has already been
+created for you, ask its administrator to add you to it.
 
-If not, your can create it following this link: [register a new organization](/-/register_organization).
+If not, you can create one: [register a new organization](/-/register_organization).
